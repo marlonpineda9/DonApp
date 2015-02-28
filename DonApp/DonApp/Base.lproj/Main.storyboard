@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--DONAPP-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -42,14 +42,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="fyA-ak-MV9"/>
+                    <tabBarItem key="tabBarItem" title="DONAPP" id="fyA-ak-MV9"/>
                     <navigationItem key="navigationItem" id="aCL-7p-TYl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-731.20000000000005" y="721.36000000000001"/>
         </scene>
-        <!--Item 2-->
+        <!--INTERÉS-->
         <scene sceneID="Ovk-Sz-BSq">
             <objects>
                 <viewController id="vEZ-Oh-D7S" customClass="NavegadorViewController" sceneMemberID="viewController">
@@ -58,14 +58,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="Kvd-fj-6DN">
-                                <rect key="frame" x="14" y="49" width="292" height="440"/>
+                                <rect key="frame" x="14" y="20" width="292" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2M5-10-IPE"/>
+                    <tabBarItem key="tabBarItem" title="INTERÉS" id="2M5-10-IPE"/>
                     <connections>
                         <outlet property="navegador" destination="Kvd-fj-6DN" id="x4E-Cu-AOp"/>
                     </connections>
@@ -74,20 +74,29 @@
             </objects>
             <point key="canvasLocation" x="-355" y="732"/>
         </scene>
-        <!--Item 1-->
+        <!--INSTITUCIONES-->
         <scene sceneID="QF8-e2-Z8c">
             <objects>
-                <viewController id="dvU-lQ-W6J" sceneMemberID="viewController">
+                <viewController id="dvU-lQ-W6J" customClass="MapaViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJR-Wv-0oN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="f5O-OV-N9x">
+                                <rect key="frame" x="12" y="20" width="292" height="487"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="tGr-ZN-FDb"/>
+                    <tabBarItem key="tabBarItem" title="INSTITUCIONES" selectedImage="inst.png" id="tGr-ZN-FDb"/>
+                    <connections>
+                        <outlet property="mapa" destination="f5O-OV-N9x" id="cBp-j5-Ne3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DLp-sM-GuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-241.59999999999999" y="83.306666666666672"/>
+            <point key="canvasLocation" x="-242" y="83"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="odW-B1-XTX">
@@ -112,6 +121,7 @@
     </scenes>
     <resources>
         <image name="boton1.png" width="276" height="62"/>
+        <image name="inst.png" width="256" height="256"/>
         <image name="logo nobre e icono rojo.png" width="264" height="166"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

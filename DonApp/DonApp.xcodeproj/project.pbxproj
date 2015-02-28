@@ -23,6 +23,9 @@
 		353AB9371AA214AC00691D61 /* logo nobre e icono rojo.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB9361AA214AC00691D61 /* logo nobre e icono rojo.png */; };
 		353AB9391AA2184C00691D61 /* boton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB9381AA2184C00691D61 /* boton1.png */; };
 		353AB9421AA21CFB00691D61 /* NavegadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AB9411AA21CFB00691D61 /* NavegadorViewController.m */; };
+		353AB9451AA2228800691D61 /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AB9441AA2228800691D61 /* MapaViewController.m */; };
+		353AB9471AA222F400691D61 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353AB9461AA222F400691D61 /* MapKit.framework */; };
+		353AB9491AA225F100691D61 /* inst.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB9481AA225F100691D61 /* inst.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,10 @@
 		353AB9381AA2184C00691D61 /* boton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton1.png; sourceTree = "<group>"; };
 		353AB9401AA21CFB00691D61 /* NavegadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavegadorViewController.h; sourceTree = "<group>"; };
 		353AB9411AA21CFB00691D61 /* NavegadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavegadorViewController.m; sourceTree = "<group>"; };
+		353AB9431AA2228800691D61 /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		353AB9441AA2228800691D61 /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
+		353AB9461AA222F400691D61 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		353AB9481AA225F100691D61 /* inst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inst.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353AB9471AA222F400691D61 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +90,8 @@
 		353AB8F31AA2095E00691D61 = {
 			isa = PBXGroup;
 			children = (
+				353AB9481AA225F100691D61 /* inst.png */,
+				353AB9461AA222F400691D61 /* MapKit.framework */,
 				353AB9381AA2184C00691D61 /* boton1.png */,
 				353AB9361AA214AC00691D61 /* logo nobre e icono rojo.png */,
 				353AB9281AA20F4600691D61 /* icono-blanco.png */,
@@ -168,6 +178,8 @@
 				353AB9071AA2095E00691D61 /* ViewController.m */,
 				353AB9401AA21CFB00691D61 /* NavegadorViewController.h */,
 				353AB9411AA21CFB00691D61 /* NavegadorViewController.m */,
+				353AB9431AA2228800691D61 /* MapaViewController.h */,
+				353AB9441AA2228800691D61 /* MapaViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -257,6 +269,7 @@
 				353AB9301AA20F4600691D61 /* logo nobre e icono blanco.png in Resources */,
 				353AB9101AA2095E00691D61 /* LaunchScreen.xib in Resources */,
 				353AB9371AA214AC00691D61 /* logo nobre e icono rojo.png in Resources */,
+				353AB9491AA225F100691D61 /* inst.png in Resources */,
 				353AB90D1AA2095E00691D61 /* Images.xcassets in Resources */,
 				353AB92F1AA20F4600691D61 /* icono-rojo.png in Resources */,
 				353AB9311AA20F4600691D61 /* nombreapp2.png in Resources */,
@@ -281,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				353AB9081AA2095E00691D61 /* ViewController.m in Sources */,
+				353AB9451AA2228800691D61 /* MapaViewController.m in Sources */,
 				353AB9051AA2095E00691D61 /* AppDelegate.m in Sources */,
 				353AB9421AA21CFB00691D61 /* NavegadorViewController.m in Sources */,
 				353AB9021AA2095E00691D61 /* main.m in Sources */,
