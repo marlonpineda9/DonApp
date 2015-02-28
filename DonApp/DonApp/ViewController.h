@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)ButtonInfo:(id)sender;
+
+- (IBAction)ButtonInstituciones:(id)sender;
+
 
 @end
 

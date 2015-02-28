@@ -26,6 +26,9 @@
 		353AB9451AA2228800691D61 /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AB9441AA2228800691D61 /* MapaViewController.m */; };
 		353AB9471AA222F400691D61 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353AB9461AA222F400691D61 /* MapKit.framework */; };
 		353AB9491AA225F100691D61 /* inst.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB9481AA225F100691D61 /* inst.png */; };
+		353AB94D1AA22A4E00691D61 /* icodonapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB94A1AA22A4E00691D61 /* icodonapp.png */; };
+		353AB94E1AA22A4E00691D61 /* icoinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB94B1AA22A4E00691D61 /* icoinfo.png */; };
+		353AB94F1AA22A4E00691D61 /* icomapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 353AB94C1AA22A4E00691D61 /* icomapa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		353AB9441AA2228800691D61 /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
 		353AB9461AA222F400691D61 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		353AB9481AA225F100691D61 /* inst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inst.png; sourceTree = "<group>"; };
+		353AB94A1AA22A4E00691D61 /* icodonapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icodonapp.png; sourceTree = "<group>"; };
+		353AB94B1AA22A4E00691D61 /* icoinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icoinfo.png; sourceTree = "<group>"; };
+		353AB94C1AA22A4E00691D61 /* icomapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icomapa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		353AB8F31AA2095E00691D61 = {
 			isa = PBXGroup;
 			children = (
+				353AB94A1AA22A4E00691D61 /* icodonapp.png */,
+				353AB94B1AA22A4E00691D61 /* icoinfo.png */,
+				353AB94C1AA22A4E00691D61 /* icomapa.png */,
 				353AB9481AA225F100691D61 /* inst.png */,
 				353AB9461AA222F400691D61 /* MapKit.framework */,
 				353AB9381AA2184C00691D61 /* boton1.png */,
@@ -264,14 +273,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353AB94D1AA22A4E00691D61 /* icodonapp.png in Resources */,
 				353AB9321AA20F4600691D61 /* splash full.png in Resources */,
 				353AB90B1AA2095E00691D61 /* Main.storyboard in Resources */,
 				353AB9301AA20F4600691D61 /* logo nobre e icono blanco.png in Resources */,
 				353AB9101AA2095E00691D61 /* LaunchScreen.xib in Resources */,
 				353AB9371AA214AC00691D61 /* logo nobre e icono rojo.png in Resources */,
 				353AB9491AA225F100691D61 /* inst.png in Resources */,
+				353AB94E1AA22A4E00691D61 /* icoinfo.png in Resources */,
 				353AB90D1AA2095E00691D61 /* Images.xcassets in Resources */,
 				353AB92F1AA20F4600691D61 /* icono-rojo.png in Resources */,
+				353AB94F1AA22A4E00691D61 /* icomapa.png in Resources */,
 				353AB9311AA20F4600691D61 /* nombreapp2.png in Resources */,
 				353AB9331AA20F4600691D61 /* splash sin titulo.png in Resources */,
 				353AB92E1AA20F4600691D61 /* icono-blanco.png in Resources */,
