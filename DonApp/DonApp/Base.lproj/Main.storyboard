@@ -25,6 +25,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonInstituciones:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FDM-FX-h99"/>
+                                    <segue destination="dvU-lQ-W6J" kind="modal" id="emw-Ga-LS9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hIh-G2-mdm">
@@ -43,6 +44,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonInfo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zC0-9f-N9L"/>
+                                    <segue destination="vEZ-Oh-D7S" kind="modal" id="oCU-oQ-27H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -72,13 +74,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="INTERÉS" image="icoinfo.png" selectedImage="icoinfo.png" id="2M5-10-IPE"/>
+                    <navigationItem key="navigationItem" id="lIx-9R-FgX"/>
                     <connections>
                         <outlet property="navegador" destination="Kvd-fj-6DN" id="x4E-Cu-AOp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Sc-ew-ogo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-355" y="732"/>
+            <point key="canvasLocation" x="-248" y="735"/>
         </scene>
         <!--INSTITUCIONES-->
         <scene sceneID="QF8-e2-Z8c">
@@ -102,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DLp-sM-GuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242" y="83"/>
+            <point key="canvasLocation" x="-248" y="708"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="odW-B1-XTX">
@@ -137,4 +140,8 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="oCU-oQ-27H"/>
+        <segue reference="emw-Ga-LS9"/>
+    </inferredMetricsTieBreakers>
 </document>
